@@ -220,4 +220,8 @@ $(document).ready(() => {
         $('#header-nav').css('display', 'none');
     });
 
+    $('#up').click(() => {
+        $('#header-nav').css('display', 'flex');
+    });
+
 });
