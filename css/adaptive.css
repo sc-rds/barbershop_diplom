@@ -1366,3 +1366,36 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+    #about-us-info img:nth-child(2) {
+        left: 258px;
+    }
+
+    #our_masters-content .slick-slide img:not(:last-child) {
+        margin: 0 33px;
+        padding: 0 10px;
+    }
+
+    #our_masters-content .sign-up {
+        font-size: 17px;
+        right: 61px;
+    }
+
+    #our_masters-content .master-name {
+        top: 33px;
+        left: 52px;
+    }
+
+    #our_masters-container .slick-prev {
+        left: 13px;
+    }
+
+    #info-slick img {
+        margin: 0 24px;
+    }
+
+    #info-slick .slick-list {
+        width: 59%;
+    }
+}
