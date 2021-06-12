@@ -62,8 +62,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(27, 27, 27, 0.81);
-    /*background-color: rgba(13, 13, 13, 0.81);*/
+    background-color: rgba(0, 0, 0, 0.84);
     z-index: 2;
 }
 
@@ -93,23 +92,25 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.header-logo a {
+#header .header-logo a {
     display: flex;
     align-items: center;
     font-size: 16px;
     font-family: "GilroyMedium", sans-serif;
     text-decoration: none;
     color: rgb(188, 18, 18);
+    line-height: 1.563;
 }
 
 #main #main-container #header #header-nav {
     width: 480px;
     display: flex;
     justify-content: space-between;
+    padding-top: 7px;
 }
 
 #main #main-container #header #header-nav a {
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     border-bottom: 1px solid transparent;
 }
 
@@ -139,9 +140,9 @@ body {
     color: rgb(188, 18, 18);
     border: 2px solid rgb(188, 18, 18);
     border-radius: 5px;
-    width: 207px;
+    width: 202px;
     background: transparent;
-    padding: 15px 0 15px 21px;
+    padding: 13px 0 10px 19px;
     flex-direction: column;
     box-shadow: 0 0 4px 1px inset rgba(118, 18, 18, 0.93);
     cursor: pointer;
@@ -155,6 +156,7 @@ body {
 .header-phone button img {
     margin-right: 14px;
     vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 #main #main-title {
@@ -165,7 +167,7 @@ body {
 }
 
 #main #main-title h1 {
-    margin: 161px 0 0;
+    margin: 150px 0 0;
     font-size: 50px;
     font-family: "Cambria-Bold", sans-serif;
     color: rgb(188, 18, 18);
@@ -179,12 +181,12 @@ body {
 .titles-texts {
     font-family: "Cambria-Bold", sans-serif;
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.38);
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
     font-size: 40px;
 }
 
 #main #main-title-text {
-    margin-top: 70px;
+    margin-top: 65px;
     width: 463px;
     font-size: 20px;
     font-family: "GilroyBold", sans-serif;
@@ -197,10 +199,10 @@ body {
 }
 
 .btn {
-    margin-top: 66px;
+    margin-top: 62px;
     border: none;
     cursor: pointer;
-    padding: 25px 76px;
+    padding: 22px 74px;
     border-radius: 5px;
     background-image: -moz-linear-gradient(90deg, rgb(90, 4, 4) 0%, rgb(188, 18, 18) 100%);
     background-image: -webkit-linear-gradient(90deg, rgb(90, 4, 4) 0%, rgb(188, 18, 18) 100%);
@@ -217,15 +219,15 @@ body {
 
 #main #main-images img:first-child {
     position: absolute;
-    top: 0;
-    left: -200px;
+    top: 15px;
+    left: -205px;
     z-index: 0;
 
 }
 
 #main #main-images img:nth-child(2) {
     position: absolute;
-    top: -453px;
+    top: -435px;
     left: 495px;
     z-index: 1;
 
@@ -233,8 +235,8 @@ body {
 
 #main #main-images img:last-child {
     position: absolute;
-    top: -335px;
-    left: 904px;
+    top: -315px;
+    left: 907px;
     z-index: 0;
 
 }
@@ -269,7 +271,7 @@ body {
 }
 
 #about-us-info #about-us-text h2.titles-texts {
-    margin: 0 0 50px;
+    margin: 0 0 46px;
     line-height: .825;
 }
 
@@ -302,7 +304,7 @@ body {
 
 #about-us-advantages .advantage img {
     margin-right: 15px;
-    height: 31px;
+    height: 77%;
 }
 
 #services {
@@ -315,7 +317,6 @@ body {
 }
 
 
-
 #services #services-container #services-block {
     display: flex;
 }
@@ -323,6 +324,7 @@ body {
 #services #services-container #services-block img {
     padding-top: 20px;
     padding-left: 25px;
+    height: 100%;
 }
 
 #services #services-container button.btn {
@@ -364,7 +366,7 @@ body {
 #complex-container, #additional-container {
     display: flex;
     width: 570px;
-    margin-top: 61px;
+    margin-top: 56px;
     justify-content: space-between;
 }
 
@@ -376,9 +378,40 @@ body {
     padding-right: 19px;
 }
 
-#services-block .service-types .haircut-type:not(:first-child) {
-    margin-top: 50px;
+
+tbody {
+    display: flex;
+    flex-direction: column;
 }
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td:not(:last-child) {
+    padding-bottom: 46px;
+}
+
+td.haircut-style {
+    width: 228px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+td.haircut-style:last-child {
+    margin-bottom: 0;
+}
+
+td.haircut-price {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+td.haircut-price:last-child {
+    margin-bottom: 0;
+}
+
 
 #services-block .service-styles {
     font-size: 14px;
@@ -387,20 +420,12 @@ body {
     width: 225px;
 }
 
-#services-block .service-styles .haircut-style:not(:first-child) {
-    margin-top: 50px;
-}
-
 #services-block .service-prices {
     font-size: 16px;
     font-family: "GilroyBold", sans-serif;
     color: rgb(255, 255, 255);
     border-left: 1px solid rgb(56, 56, 56);
     padding-left: 25px;
-}
-
-#services-block .service-prices .haircut-price:not(:first-child) {
-    margin-top: 50px;
 }
 
 #services #services-container h3.titles-texts {
@@ -427,7 +452,7 @@ body {
 
 #our_masters-container .titles-texts {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
 
 #our_masters-container .about-us-text {
@@ -455,8 +480,8 @@ body {
 
 #our_masters-content .master-name {
     position: absolute;
-    top: 49px;
-    left: 80px;
+    top: 35px;
+    left: 58px;
     font-size: 18px;
     font-family: "GilroyMedium", sans-serif;
     color: rgb(255, 255, 255);
@@ -466,11 +491,12 @@ body {
     display: flex;
     position: absolute;
     align-items: center;
-    right: 99px;
-    bottom: 35px;
+    right: 75px;
+    bottom: 24px;
     font-size: 20px;
     font-family: "GilroyBold", sans-serif;
     color: rgb(188, 18, 18);
+    text-shadow: 0 0 30px #000000, 0 0 20px #000000, 0 0 20px #000000, 0 0 20px #000000, 0 0 20px #000000, 0 0 20px #000000, 0 0 20px #000000, 0 0 20px #000000;
 }
 
 #our_masters-content .sign-up img {
@@ -490,10 +516,21 @@ body {
 
 #our_masters-content .slick-prev {
     left: 0;
+    top: 48%;
+}
+
+#our_masters-content .slick-next {
+    right: 23px;
+    top: 48%;
 }
 
 #our_masters-content .slick-prev:before {
     content: url("images/prev1.png");
+}
+
+#our_masters-content .slick-prev:hover:before {
+    content: url("images/next2.png");
+    box-shadow: 0 -5px 20px 7px rgba(118, 18, 18, 0.9);
 }
 
 #our_masters-content .slick-next:before {
@@ -502,15 +539,7 @@ body {
 
 #our_masters-content .slick-next:hover:before {
     content: url("images/next1.png");
-}
-
-#our_masters-content button.slick-next.slick-arrow {
-    width: 90px;
-    height: 60px;
-}
-
-#our_masters-content .slick-prev:before, .slick-next:before {
-    font-size: 0;
+    box-shadow: 0 -5px 20px 7px rgba(118, 18, 18, 0.9);
 }
 
 #our_masters-content .slick-dots li.slick-active button:before {
@@ -633,7 +662,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 #info-content #info-action a {
@@ -643,6 +672,10 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+
+#info-content .titles-texts {
+    padding-bottom: 10px;
 }
 
 #info-content #info-action a img {
@@ -660,7 +693,7 @@ body {
 
 #info-content button.btn {
     margin: 0 0 0 28px;
-    padding: 25px 43px;
+    padding: 22px 43px;
 }
 
 #info-content button.btn > a {
@@ -673,10 +706,17 @@ body {
 }
 
 #info-slick img {
-    width: 300px;
     height: 300px;
     margin: 0 15px;
     transition: 1s;
+}
+
+img#slick-slide  {
+    width: 300px;
+}
+
+.slick-dots li {
+    margin: 0;
 }
 
 #info-slick img:hover {
@@ -699,6 +739,17 @@ body {
     right: 11px;
 }
 
+
+#info-slick .slick-prev:hover:before {
+    content: url("images/next2.png");
+    box-shadow: 0 -5px 20px 7px rgba(118, 18, 18, 0.9);
+}
+
+#info-slick .slick-next:hover:before {
+    content: url("images/next1.png");
+    box-shadow: 0 -5px 20px 7px rgba(118, 18, 18, 0.9);
+}
+
 #info-slick .slick-prev:before {
     content: url("images/prev1.png");
 }
@@ -714,6 +765,10 @@ body {
 #info-slick .slick-dots li button:before {
     content: url("images/elipse_slider2.png");
     opacity: 1;
+}
+
+#info-slick .slick-list {
+    padding: 20px 0;
 }
 
 #contacts {
@@ -785,6 +840,15 @@ body {
     font-family: "GilroyBold", sans-serif;
 }
 
+#contact-block #contacts-info .header-logo a {
+    text-decoration: none;
+    color: rgb(188, 18, 18);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+}
+
 #contact-block .site-phone a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -802,11 +866,11 @@ body {
 }
 
 #footer {
-    text-align: center;
     font-size: 12px;
     font-family: "GilroyRegular", sans-serif;
     color: rgb(102, 101, 100);
     padding: 45px 0 0;
+    margin-left: 360px;
 }
 
 #up {

@@ -1,4 +1,4 @@
-/* 1440-1920 */
+ /*1440-1920*/
 @media screen and (max-width: 1919px) {
     #main #main-images img:first-child {
         left: -72px;
@@ -19,6 +19,7 @@
         left: 838px;
     }
 }
+
 
 /*1200-1440*/
 @media screen and (max-width: 1439px) {
