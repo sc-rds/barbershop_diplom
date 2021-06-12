@@ -1,4 +1,6 @@
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -238,7 +240,6 @@ body {
     top: -315px;
     left: 907px;
     z-index: 0;
-
 }
 
 #about_us {
@@ -251,16 +252,16 @@ body {
 
 #about-us-info {
     display: flex;
+    position: relative;
 }
 
 #about-us-info img:first-child {
-    position: relative;
     z-index: 10;
 }
 
 #about-us-info img:nth-child(2) {
     position: absolute;
-    top: 64px;
+    top: -19px;
     left: 552px;
     z-index: 0;
 }

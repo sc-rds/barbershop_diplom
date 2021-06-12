@@ -216,8 +216,9 @@ $(document).ready(() => {
         $('#header-nav').css('display', 'flex');
     });
 
-    $('#header-nav a').click(() => {
-        $('#header-nav').css('display', 'none');
-    });
+
+    // $('#header-nav a').click(() => {
+    //     $('#header-nav').css('display', 'none');
+    // });
 
 });
