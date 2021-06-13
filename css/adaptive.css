@@ -1748,6 +1748,33 @@
         text-align: center;
     }
 
+    .btn-call {
+        width: 133px;
+        padding: 4px 4px;
+    }
+
+    .header-phone button img {
+        display: none;
+    }
+
+    #services-request-block .request-input {
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+
+    select {
+        font-size: 14px;
+    }
+
+    #accept-request {
+        padding: 57px 0;
+        margin-left: 88px;
+    }
+
+    form .error-input, .input-error {
+        width: 141px;
+    }
+
 }
 
 @media screen and (max-width: 374px) {
