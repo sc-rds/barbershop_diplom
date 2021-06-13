@@ -1188,3 +1188,8 @@ iframe {
     font-size: 30px;
     line-height: 30px;
 }
+
+#burger svg {
+    display: none;
+}
+

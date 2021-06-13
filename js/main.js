@@ -31,6 +31,8 @@ $(document).ready(() => {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
+                    centerMode: true,
+                    centerPadding: '40px',
                 }
             }
         ]
@@ -129,8 +131,8 @@ $(document).ready(() => {
                     $('#form-hide').hide();
                 },
                 error: () => {
-                    $('#call-request-container').hide();
-                    // alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
+                    // $('#call-request-container').hide();
+                    alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
                 }
             });
         } else {
@@ -185,8 +187,8 @@ $(document).ready(() => {
                     $('#services-request-content').hide();
                 },
                 error: () => {
-                    $('#services-request').hide();
-                    // alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
+                    // $('#services-request').hide();
+                    alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
                 }
             });
         } else {
@@ -231,13 +233,14 @@ $(document).ready(() => {
         }
     });
 
-    $('#burger').click(() => {
-        $('#header-nav').css('display', 'flex');
+    document.getElementById('burger').onclick = function () {
+        document.getElementById('header-nav').classList.add('open');
+    };
+    document.querySelectorAll('#header-nav > *').forEach((item) => {
+        item.onclick = () => {
+            document.getElementById('header-nav').classList.remove('open');
+        }
     });
 
-
-    // $('#header-nav a').click(() => {
-    //     $('#header-nav').css('display', 'none');
-    // });
 
 });

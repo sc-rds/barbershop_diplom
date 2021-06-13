@@ -355,6 +355,12 @@
         height: 290px;
     }
 
+    #info #info-container #info-content {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
@@ -870,7 +876,7 @@
         background: rgba(0, 0, 0, 0.85);
         z-index: 9999;
         width: 100%;
-        height: 58%;
+        height: 100%;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
@@ -883,9 +889,20 @@
         z-index: 99999;
     }
 
-
     #main #main-container #header #header-nav {
         margin-right: 5px;
+    }
+
+    #header-nav svg {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        fill: #ff0013;
+    }
+
+    #main #main-container #header #header-nav.open {
+        display: flex;
     }
 
 
@@ -1137,9 +1154,7 @@
         height: 43px;
         padding: 10px 0 10px 10px;
         margin-bottom: 15px;
-
     }
-
 
     #services-request-close img:last-child {
         width: 66px;
@@ -1242,10 +1257,7 @@
 
 }
 
-
-
 @media screen and (max-width: 559px) {
-    /*425 chrome*/
 
     #main #main-images img:nth-child(2) {
         max-width: 132px;
@@ -1318,6 +1330,46 @@
     #services-block .service-types .haircut-type:not(:first-child) {
         margin-top: 26px;
     }
+
+    form .error-input, .input-error {
+        font-size: 14px;
+    }
+
+    #services-request-container {
+        width: 400px;
+    }
+
+    select {
+        appearance: none;
+        background: url("../images/service-right-arrow.png") no-repeat right rgb(51, 50, 50);
+        background-position-x: calc(100% - 8px);
+    }
+
+    #accept-request #accept-request-block {
+        right: 67px;
+    }
+
+    /*#our_masters-content .slick-list {*/
+    /*    width: 50%;*/
+    /*}*/
+
+    #our_masters-content .slick-slide {
+        width: 284px;
+    }
+
+    #our_masters-content .slick-list {
+        width: 84%;
+    }
+
+    #info-slick img {
+        max-height: 160px;
+        max-width: 200px;
+    }
+
+    #info-slick .slick-list {
+        width: 67%;
+    }
+
 }
 
 
@@ -1334,11 +1386,18 @@
 
     #main #main-title h1 {
         margin: 35px 0 0 10px;
+        font-size: 39px;
     }
 
     #main #main-title-text {
-        width: 304px;
-        margin-left: 10px;
+        text-align: center;
+        margin-left: 27px;
+        width: 312px;
+    }
+
+    .btn-call {
+        width: 190px;
+        padding: 13px 0 10px 15px;
     }
 
     #main-container #main-title button {
@@ -1359,7 +1418,7 @@
     #main #main-images img:last-child {
         max-width: 200px;
         top: 82px;
-        left: 117px;
+        left: 139px;
     }
 
     #main #main-images img:nth-child(2) {
@@ -1369,8 +1428,8 @@
     }
 
     #about-us-info img:nth-child(2) {
-        top: 28px;
-        left: 313px;
+        left: 282px;
+        top: 438px;
     }
 
     #about-us-info img:first-child {
@@ -1387,9 +1446,43 @@
         margin-top: 10px;
     }
 
-
     #about-us-container {
         padding: 40px 0;
+    }
+
+    #about-us-advantages .advantage {
+        width: 300px;
+    }
+
+    td.haircut-style {
+        width: 190px;
+        margin-bottom: 15px;
+    }
+
+    td:not(:last-child) {
+        padding-bottom: 0;
+    }
+
+    td.haircut-style {
+        width: 170px;
+    }
+    #services-block .service-types .haircut-type:not(:first-child) {
+        margin-top: 37px;
+    }
+
+    #services-block .service-prices .haircut-price:not(:first-child) {
+        margin-top: 23px;
+    }
+
+    #services-block .service-styles .haircut-style:not(:first-child) {
+        margin-top: 29px;
+    }
+
+
+
+
+    #services-block .service-types {
+        padding-left: 15px;
     }
 
     #services #services-container h3.titles-texts {
@@ -1432,6 +1525,7 @@
 
     #services-block #service-options {
         width: 320px;
+        font-size: 15px;
     }
 
     #services-block #haircuts-container, #blades-container, #complex-container, #additional-container {
@@ -1444,17 +1538,10 @@
         margin-left: 85px;
     }
 
-    #services-block .service-types .haircut-type:not(:first-child) {
-        margin-top: 29px;
-    }
 
-    #services-block .service-styles .haircut-style:not(:first-child) {
-        margin-top: 19px;
-    }
 
-    #services-block .service-prices .haircut-price:not(:first-child) {
-        margin-top: 43px;
-    }
+
+
 
     #our_masters #our_masters-container {
         padding: 60px 0;
@@ -1497,16 +1584,22 @@
     }
 
     #info #info-container #info-content .titles-texts {
-        width: 300px;
+        width: 330px;
         text-align: center;
     }
 
     #info-content button.btn {
-        margin: 0 0 0 9px;
+        margin: 16px 0 0 9px;
+    }
+
+    #info-content #info-action a img {
+        margin-bottom: 9px;
     }
 
     #info-content #info-action a {
         margin: 10px 10px 0;
+        display: flex;
+        flex-direction: column;
     }
 
     #our_masters-content .slick-list {
@@ -1524,6 +1617,7 @@
 
     #address .address-text, #times .address-text {
         margin: 8px;
+        width: 230px;
     }
 
     #contacts-items #contact-block {
@@ -1586,12 +1680,18 @@
     #call-request-content .titles-texts {
         margin: 0 0 25px;
     }
-
 }
 
 @media screen and (max-width: 375px) {
+
+    #main #main-images img:last-child {
+        max-width: 200px;
+        top: 82px;
+        left: 112px;
+    }
+
     #about-us-info img:nth-child(2) {
-        left: 290px;
+        left: 247px;
     }
 
     #our_masters-content .slick-slide img:not(:last-child) {
@@ -1613,18 +1713,45 @@
         left: 13px;
     }
 
-    #info-slick img {
-        margin: 0 24px;
-    }
-
     #info-slick .slick-list {
         width: 59%;
     }
+
+    #main #main-title-text {
+        text-align: center;
+        margin-left: 27px;
+        width: 260px;
+    }
+
+    td.haircut-style {
+        width: 138px;
+    }
+
+    #services-block .service-types {
+        padding-left: 5px;
+    }
+
+    #service-options .option {
+        padding: 0 0 37px 0;
+        margin: 0 0 0 2px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #services #services-container button.btn {
+        margin-left: 40px;
+    }
+
+    #info #info-container #info-content .titles-texts {
+        width: 317px;
+        font-size: 32px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 374px) {
     #about-us-info img:nth-child(2) {
-        left: 258px;
+        left: 242px;
     }
-
 }
