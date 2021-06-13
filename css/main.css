@@ -871,7 +871,7 @@ img#slick-slide  {
     font-family: "GilroyRegular", sans-serif;
     color: rgb(102, 101, 100);
     padding: 45px 0 0;
-    margin-left: 360px;
+    text-align: center;
 }
 
 #up {

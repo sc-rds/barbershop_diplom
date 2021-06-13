@@ -1,4 +1,4 @@
- /*1440-1920*/
+/*1440-1920*/
 @media screen and (max-width: 1919px) {
     #main #main-images img:last-child {
         max-width: 434px;
@@ -171,12 +171,12 @@
 
 @media screen and (max-width: 1355px) {
 
-     #main #main-images img:last-child {
-         width: 354px;
-         top: -273px;
-     }
+    #main #main-images img:last-child {
+        width: 354px;
+        top: -273px;
+    }
 
- }
+}
 
 /*1024-1199*/
 @media screen and (max-width: 1199px) {
@@ -203,13 +203,8 @@
         margin: 70px 0 0 20px;
     }
 
-    #main #main-title h1 span.titles-texts {
-        font-size: 40px;
-    }
-
     #main #main-title-text {
         margin-top: 50px;
-        font-size: 19px;
         margin-left: 20px;
     }
 
@@ -225,8 +220,8 @@
 
     #main #main-images img:nth-child(2) {
         max-width: 503px;
-        top: -416px;
-        left: 433px;
+        top: -379px;
+        left: 496px;
     }
 
     #main #main-images img:last-child {
@@ -345,7 +340,7 @@
     }
 
     #discount #discount-container {
-        padding: 47px 0 50px 20px;
+        padding: 110px 20px;
     }
 
     #discount #discount-container img {
@@ -354,10 +349,6 @@
 
     #info #info-container #info-content {
         margin-bottom: 50px;
-    }
-
-    #info #info-container #info-content .titles-texts {
-        font-size: 30px;
     }
 
     #info-slick img {
@@ -390,14 +381,14 @@
 @media screen and (max-width: 1070px) {
     #main #main-images img:nth-child(2) {
         max-width: 416px;
-        top: -362px;
+        top: -317px;
         left: 429px;
     }
 
     #main #main-images img:last-child {
         width: 293px;
         left: 722px;
-        top: -263px;
+        top: -214px;
     }
 
     #header .header-phone a {
@@ -445,7 +436,6 @@
 
     #main #main-title-text {
         margin-top: 20px;
-        font-size: 17px;
     }
 
     #contact-block .site-phone, .header-phone {
@@ -481,16 +471,8 @@
         align-items: center;
     }
 
-    .about-us-text {
-        font-size: 14px;
-    }
-
     #about-us-info #about-us-text h2.titles-texts {
         margin: 0 0 25px;
-    }
-
-    .titles-texts {
-        font-size: 35px;
     }
 
     #about-us-container #about-us-advantages {
@@ -499,12 +481,11 @@
     }
 
     #about-us-advantages .advantage {
-        font-size: 13px;
         justify-content: center;
     }
 
     #services #services-container {
-        padding: 120px 20px;
+        padding: 70px 20px 140px;
     }
 
     #services #services-container #services-block img {
@@ -519,7 +500,6 @@
 
     #services #services-container h3.titles-texts {
         margin: 0 0 20px 0;
-        font-size: 30px;
     }
 
     #services-block #haircuts-container, #blades-container, #complex-container, #additional-container {
@@ -551,7 +531,6 @@
     #discount #discount-container {
         align-items: flex-end;
         justify-content: center;
-
     }
 
     #discount-container-texts {
@@ -559,9 +538,6 @@
         margin-top: 30px;
     }
 
-    #discount-container-texts #discount-text span {
-        font-size: 60px;
-    }
 
     #discount #discount-container img {
         max-width: 177px;
@@ -573,7 +549,6 @@
     }
 
     #discount-container-texts #discount-text {
-        font-size: 15px;
         width: 570px;
     }
 
@@ -586,29 +561,13 @@
         width: 560px;
     }
 
-    #discount-popup .titles-texts {
-        font-size: 20px;
-    }
-
-    #discount-popup span {
-        font-size: 35px;
-    }
-
     #info-content button.btn {
         margin: 10px 0 0 9px;
         padding: 15px 15px;
     }
 
-    #info #info-container #info-content .titles-texts {
-        font-size: 23px;
-    }
-
     #info-slick img {
         max-height: 180px;
-    }
-
-    #contacts .titles-texts {
-        font-size: 30px;
     }
 
     #contacts #contacts-container {
@@ -620,13 +579,9 @@
     }
 
     #address .address-title, #times .address-title {
-        font-size: 13px;
         margin-bottom: 13px;
     }
 
-    #address .address-text, #times .address-text {
-        font-size: 14px;
-    }
 
     #contact-block .site-phone, .header-phone {
         padding: 0;
@@ -675,17 +630,10 @@
         margin: 0;
     }
 
-    #services-request-block .titles-texts {
-        font-size: 29px;
-    }
-
     #services-request-block h2.titles-texts {
         margin: 0 0 12px 0;
     }
 
-    #services-request-block .about-us-text {
-        font-size: 12px;
-    }
 
     #services-request-content {
         padding: 23px 0 32px;
@@ -702,7 +650,7 @@
 
     form .error-input, .input-error {
         margin-top: -17px;
-        font-size: 12px;
+
     }
 
     #form-hide form .error-input, .input-error {
@@ -711,7 +659,7 @@
 
     #call-request-content .titles-texts {
         margin: 0 0 25px;
-        font-size: 23px;
+
     }
 
     #accept-img img {
@@ -745,32 +693,43 @@
 
 }
 
+@media screen and (max-width: 1021px) {
+    #about-us-info img:nth-child(2) {
+        top: 28px;
+        left: 350px;
+        width: 77px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
-     #our_masters-content .master img {
-         max-width: 356px;
-     }
+    #our_masters-content .master img {
+        max-width: 356px;
+    }
 
-     #our_masters-content .sign-up {
-         right: 167px;
-     }
-
-    /*#about-us-info img:nth-child(2) {*/
-    /*    left: 282px;*/
-    /*}*/
- }
+    #our_masters-content .sign-up {
+        right: 108px;
+    }
+}
 
 @media screen and (max-width: 979px) {
     #main #main-images img:nth-child(2) {
         max-width: 359px;
-        top: -279px;
+        top: -206px;
         left: 373px;
     }
 
     #main #main-images img:last-child {
         max-width: 291px;
-        top: -194px;
+        top: -122px;
         left: 633px;
     }
+
+    #about-us-info img:nth-child(2) {
+        left: 330px;
+    }
+}
+
+@media screen and (max-width: 953px) {
 
     #about-us-info img:nth-child(2) {
         left: 330px;
@@ -781,17 +740,30 @@
 
     #main #main-images img:nth-child(2) {
         max-width: 326px;
-        top: -239px;
+        top: -194px;
         left: 373px;
     }
 
     #main #main-images img:last-child {
         max-width: 267px;
-        top: -156px;
+        top: -118px;
         left: 602px;
     }
+
     #about-us-info img:nth-child(2) {
         left: 300px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    #about-us-advantages .advantage {
+        justify-content: flex-start;
+        padding-bottom: 15px;
+        width: 513px;
+    }
+
+    #about-us-container #about-us-advantages {
+        margin-left: 20px;
     }
 }
 
@@ -804,8 +776,8 @@
 
     #main #main-images img:nth-child(2) {
         max-width: 304px;
-        top: -225px;
-        left: 342px;
+        top: -197px;
+        left: 379px;
     }
 
     #main #main-images img:last-child {
@@ -815,13 +787,32 @@
     }
 
     #about-us-info img:nth-child(2) {
-        top: 36px;
+        top: 61px;
         left: 281px;
+    }
+
+    #about-us-advantages .advantage img {
+        height: 55%;
+    }
+
+    #our_masters-content .sign-up {
+        right: 68px;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    #our_masters-content .master img {
+        max-width: 326px;
     }
 
 }
 
 @media screen and (max-width: 819px) {
+
+    br {
+        display: none;
+    }
 
     #main #main-images img:first-child {
         max-width: 409px;
@@ -830,7 +821,7 @@
     #main #main-images img:nth-child(2) {
         max-width: 269px;
         top: -166px;
-        left: 342px;
+        left: 368px;
     }
 
     #main #main-images img:last-child {
@@ -841,6 +832,26 @@
 
     #main #main-container #header #header-nav {
         justify-content: space-evenly;
+    }
+
+    #about-us-advantages .advantage img {
+        margin-right: 15px;
+        height: 40%;
+    }
+
+    #about-us-container #about-us-advantages {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        margin: 25px auto;
+    }
+
+    #about-us-advantages .advantage {
+        justify-content: flex-start;
+        padding-bottom: 15px;
+        width: 284px;
     }
 }
 
@@ -873,14 +884,14 @@
     }
 
 
-    #header a {
-        font-size: 14px;
-    }
-
     #main #main-container #header #header-nav {
         margin-right: 5px;
     }
 
+
+    td:not(:last-child) {
+        padding-bottom: 10px;
+    }
 
     .header-logo a {
         padding: 0;
@@ -892,19 +903,18 @@
 
     #main #main-images img:first-child {
         left: 9px;
-        max-width: 313px;
+        max-width: 260px;
     }
 
     #main #main-images img:nth-child(2) {
-        max-width: 245px;
-        top: -177px;
-        left: 315px;
+        top: -138px;
+        left: 283px;
     }
 
     #main #main-images img:last-child {
         max-width: 197px;
-        top: -144px;
-        left: 515px;
+        top: 97px;
+        left: 103px;
     }
 
     #main #main-title h1 {
@@ -916,11 +926,10 @@
         margin-left: 15px;
     }
 
-
-
-    #about-us-info img:nth-child(2) {
-        top: 44px;
-        left: 332px;
+    #about-us-info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     #about-us-info #about-us-text {
@@ -928,30 +937,38 @@
         margin-left: 10px;
     }
 
+    #about-us-info img:nth-child(2) {
+        top: 373px;
+        left: 401px;
+    }
+
+    #about-us-advantages .advantage img {
+        margin-right: 15px;
+        height: 40%;
+    }
+
     #about-us-info #about-us-text h2.titles-texts {
         margin: 11px 0 15px;
         text-align: center;
     }
 
-    #about-us-container #about-us-advantages {
-        margin-top: 15px;
-    }
-
     #about-us-advantages .advantage {
-        font-size: 13px;
         flex-direction: column;
         align-items: center;
         text-align: center;
         justify-content: end;
     }
 
-    .titles-texts {
-        font-size: 25px;
+
+    #about-us-container #about-us-advantages {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        margin: 15px auto;
     }
 
-    .about-us-text {
-        font-size: 14px;
-    }
 
     #services-block .service-types .haircut-type:not(:first-child) {
         margin-top: 30px;
@@ -967,26 +984,26 @@
 
     #services-block .service-types {
         padding-right: 5px;
-        font-size: 12px;
+
     }
 
     #services-block .service-styles {
         padding-left: 5px;
-        font-size: 11px;
+
     }
 
     #services-block .service-prices {
         padding-left: 5px;
-        font-size: 12px;
+
     }
 
     #services-block #service-options {
-        font-size: 13px;
+
         width: 420px;
     }
 
     #services #services-container {
-        padding: 25px 0 90px;
+        padding: 25px 0 259px;
     }
 
     #services #services-container #services-block {
@@ -1016,24 +1033,32 @@
 
     #our_masters-container .about-us-text {
         width: 420px;
-        font-size: 11px;
     }
 
     #our_masters-content .master img {
-        max-width: 333px;
+        max-width: 282px;
     }
 
     #our_masters-content .sign-up {
-        right: 99px;
+        right: 69px;
+    }
+
+    #our_masters-content .slick-slide img:not(:last-child) {
+        margin: 0 13px;
+        padding: 0;
+    }
+
+    #our_masters-content .master-name {
+        top: 12px;
+        left: 55px;
     }
 
     #our_masters-container .slick-prev {
-        left: 4px;
+        left: 20px;
     }
 
     #discount #discount-container {
-        padding: 47px 0 50px 5px;
-        justify-content: center;
+        padding: 140px 0;
     }
 
     #discount #discount-container img {
@@ -1050,7 +1075,7 @@
     }
 
     #discount-container-texts #discount-text {
-        font-size: 15px;
+
         width: 381px;
         flex-direction: column;
         text-align: center;
@@ -1061,9 +1086,12 @@
         padding-bottom: 35px;
     }
 
-
     #discount-popup-content {
         width: 350px;
+    }
+
+    #info-content .titles-texts {
+        text-align: center;
     }
 
     #info #info-container {
@@ -1076,16 +1104,28 @@
     }
 
     #info-slick img {
-        max-height: 170px;
-        max-width: 240px;
+        max-height: 155px;
+        max-width: 185px;
     }
 
     #info-slick .slick-prev {
-        left: 2px;
+        left: 50px;
     }
 
     #info-slick .slick-next {
-        right: 11px;
+        right: 50px;
+    }
+
+    #info-slick .slick-list {
+        width: 63%;
+    }
+
+    #contacts-items #contact-block {
+        margin-bottom: 45px;
+    }
+
+    #discount-popup-content .titles-texts {
+        font-size: 20px;
     }
 
     #services-request-container {
@@ -1097,12 +1137,9 @@
         height: 43px;
         padding: 10px 0 10px 10px;
         margin-bottom: 15px;
-        font-size: 12px;
+
     }
 
-    ::placeholder {
-        font-size: 12px;
-    }
 
     #services-request-close img:last-child {
         width: 66px;
@@ -1127,6 +1164,10 @@
 @media screen and (max-width: 620px) {
 
 
+    #main #main-container {
+        padding: 25px 5px 170px;
+    }
+
     #contacts-container #contacts-items {
         display: flex;
         flex-direction: column;
@@ -1146,7 +1187,139 @@
         justify-content: center;
     }
 
+    #our_masters-content .master img {
+        max-width: 223px;
+    }
+    #our_masters-content .sign-up {
+        right: 43px;
+    }
+
+    #our_masters-container .slick-prev {
+        left: 12px;
+    }
+
+    #our_masters-container .slick-next {
+        right: 20px;
+    }
+
+    #services-block .service-styles .haircut-style:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    #services-block .service-types .haircut-type:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    #services-block .service-prices .haircut-price:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    #services-block #haircuts-container, #blades-container, #complex-container, #additional-container {
+        width: 555px;
+        margin-top: 15px;
+    }
+
+    #services-block #service-options {
+        width: 555px;
+        justify-content: space-evenly;
+    }
+
+    #services #services-container button.btn {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    #about-us-info img:first-child {
+        max-width: 315px;
+        height: 230px;
+        margin: 25px 0;
+    }
+
+    #about-us-info img:nth-child(2) {
+        top: 398px;
+        left: 397px;
+    }
+
 }
+
+
+
+@media screen and (max-width: 559px) {
+    /*425 chrome*/
+
+    #main #main-images img:nth-child(2) {
+        max-width: 132px;
+        top: 5px;
+        left: 245px;
+    }
+
+    #main #main-title h1 span.titles-texts {
+        font-size: 34px;
+    }
+
+    #about-us-info img:nth-child(2) {
+        left: 318px;
+    }
+
+    #services #services-container #services-block {
+        display: block;
+    }
+
+    #services-block #haircuts-container, #blades-container, #complex-container, #additional-container {
+        width: 425px;
+        margin-top: 30px;
+    }
+
+    #services-block .service-types .haircut-type:not(:first-child) {
+        margin-top: 11px;
+    }
+
+    #services-block #service-options {
+        width: 425px;
+        justify-content: space-between;
+    }
+
+    #services #services-container button.btn {
+        margin-left: 98px;
+    }
+
+    #service-options .option {
+        padding: 0 0 10px 0;
+        margin: 0 0 0 16px;
+    }
+
+    td:not(:last-child) {
+        padding-bottom: 9px;
+    }
+
+    td.haircut-style {
+        width: 200px;
+        margin-bottom: 19px;
+    }
+
+    #service-options .option {
+        padding: 0 0 43px 0;
+        margin: 0 0 0 9px;
+        text-align: center;
+    }
+
+    #services-block .service-types {
+        font-size: 15px;
+    }
+
+    #services-block .service-styles .haircut-style:not(:first-child) {
+        margin-top: 7px;
+    }
+
+    #services-block .service-prices .haircut-price:not(:first-child) {
+        margin-top: 7px;
+    }
+
+    #services-block .service-types .haircut-type:not(:first-child) {
+        margin-top: 26px;
+    }
+}
+
 
 /*320-424*/
 @media screen and (max-width: 424px) {
@@ -1163,26 +1336,9 @@
         margin: 35px 0 0 10px;
     }
 
-    #main #main-title h1 span.titles-texts {
-        font-size: 25px;
-    }
-
     #main #main-title-text {
         width: 304px;
         margin-left: 10px;
-    }
-
-    .titles-texts {
-        font-size: 20px;
-    }
-
-    .about-us-text {
-        font-size: 11px;
-    }
-
-    .btn {
-        padding: 15px 45px;
-        font-size: 12px;
     }
 
     #main-container #main-title button {
@@ -1192,7 +1348,7 @@
 
     #main #main-title-text {
         margin-top: 17px;
-        font-size: 13px;
+
     }
 
     #main #main-images img:first-child {
@@ -1231,15 +1387,6 @@
         margin-top: 10px;
     }
 
-    .btn-call {
-        font-size: 12px;
-        padding: 10px 0 10px 10px;
-        width: 147px;
-    }
-
-    #about-us-advantages .advantage {
-        font-size: 11px;
-    }
 
     #about-us-container {
         padding: 40px 0;
@@ -1247,11 +1394,7 @@
 
     #services #services-container h3.titles-texts {
         margin: 0 0 20px 0;
-        font-size: 20px;
-    }
 
-    #services-block #service-options {
-        font-size: 11px;
     }
 
     #call-request {
@@ -1289,7 +1432,6 @@
 
     #services-block #service-options {
         width: 320px;
-        font-size: 10px;
     }
 
     #services-block #haircuts-container, #blades-container, #complex-container, #additional-container {
@@ -1328,13 +1470,8 @@
     }
 
     #our_masters-content .sign-up {
-        font-size: 17px;
         right: 42px;
 
-    }
-
-    #our_masters-content .master-name {
-        font-size: 16px;
     }
 
     #our_masters-content .master-name {
@@ -1348,16 +1485,11 @@
     }
 
     #discount-container-texts #discount-text {
-        font-size: 14px;
         width: 312px;
     }
 
     #discount-popup-content {
         width: 300px;
-    }
-
-    #discount-popup .titles-texts {
-        font-size: 16px;
     }
 
     #discount-popup span {
@@ -1375,7 +1507,6 @@
 
     #info-content #info-action a {
         margin: 10px 10px 0;
-        font-size: 16px;
     }
 
     #our_masters-content .slick-list {
@@ -1392,7 +1523,6 @@
     }
 
     #address .address-text, #times .address-text {
-        font-size: 13px;
         margin: 8px;
     }
 
@@ -1402,7 +1532,6 @@
 
     #contact-block .site-phone a {
         margin: 5px;
-        font-size: 16px;
     }
 
     #services-request-container {
@@ -1416,20 +1545,12 @@
     select, input {
         width: 140px;
         height: 38px;
-        font-size: 10px;
     }
 
-    ::placeholder {
-        font-size: 10px;
-    }
-
-    select:focus, input:focus {
-        font-size: 11px;
-    }
 
     form .error-input, .input-error {
         margin-top: -15px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #services-request-block .about-us-text {
@@ -1441,7 +1562,6 @@
     }
 
     #services-request-block .titles-texts {
-        font-size: 26px;
         margin: 0 0 20px;
     }
 
@@ -1451,7 +1571,6 @@
 
     #accept-request .about-us-text {
         margin: 0 auto;
-        font-size: 15px;
         width: 255px;
         text-align: center;
     }
@@ -1459,13 +1578,13 @@
     #call-request-content img:not(:first-child) {
         left: -39px;
     }
+
     #form-hide form .error-input, .input-error {
         margin-left: 34px;
     }
 
     #call-request-content .titles-texts {
         margin: 0 0 25px;
-        font-size: 20px;
     }
 
 }
@@ -1481,7 +1600,6 @@
     }
 
     #our_masters-content .sign-up {
-        font-size: 17px;
         right: 47px;
         bottom: 20px;
     }

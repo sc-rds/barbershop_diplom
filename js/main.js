@@ -7,14 +7,32 @@ $(document).ready(() => {
         dots: true,
         responsive: [
             {
-                breakpoint: 650,
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: false,
+                    centerMode: true
+                }
+            }, {
+                breakpoint: 690,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: false,
+                    centerMode: true
+                }
+            }, {
+                breakpoint: 426,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false
+                    dots: false,
                 }
-            },
+            }
         ]
     });
 
@@ -30,7 +48,7 @@ $(document).ready(() => {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: false
+                    dots: false,
                 }
             }, {
                 breakpoint: 425,
@@ -38,7 +56,8 @@ $(document).ready(() => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false
+                    dots: false,
+                    centerMode: true
                 }
             },
         ]
@@ -111,7 +130,7 @@ $(document).ready(() => {
                 },
                 error: () => {
                     $('#call-request-container').hide();
-                    alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
+                    // alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
                 }
             });
         } else {
@@ -167,7 +186,7 @@ $(document).ready(() => {
                 },
                 error: () => {
                     $('#services-request').hide();
-                    alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
+                    // alert('Ошибка бронирования. Свяжитесь, пожалуйста, по номеру телефона.');
                 }
             });
         } else {
